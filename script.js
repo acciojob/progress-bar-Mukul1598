@@ -1,4 +1,4 @@
-//your JS code here. If required.
+// //your JS code here. If required.
 
 const circles = document.querySelectorAll(".circle");
 const lines = document.querySelectorAll(".line");
@@ -37,6 +37,7 @@ function updateUi() {
       ? line.classList.add("active")
       : line.classList.remove("active");
   });
+	
   prevButton.disabled = currentActive === 1;
   nextButton.disabled = currentActive === circles.length;
 }
